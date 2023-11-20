@@ -13,6 +13,11 @@ header {
   padding: 1.5rem 1rem;
 }
 
+nav {
+  display: flex;
+  gap: 1rem;
+}
+
 a {
   text-decoration: none;
   font-size: large;
@@ -85,4 +90,20 @@ div#text {
 #text {
   height: 85vh;
   width: 85vw;
+} */
+
+/* 
+@media screen and (max-width: 912px) {
+  div#container {
+    flex-direction: column;
+  }
+
+  div#text {
+    width: 100%;
+  }
+
+  div#profile-wrapper {
+    width: 100%;
+    height: 16rem;
+  }
 } */
