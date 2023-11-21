@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  display: flex;
+  gap: 1.5rem;
+  max-width: 30vw;
+  padding: 1rem;
+  align-items: center;
+  background-color: #a5e5b8;
+  border-radius: 1rem;
+  transition: ease 0.5s;
+
+  /* centrage */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+}
+
+#container:hover {
+  background-color: #9e9ec1;
+}
+
+#profile {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+#profile-wrapper {
+  position: relative;
+  width: 8rem;
+  height: 8rem;
+  border-radius: 153px;
+  overflow: hidden;
+}
+
+#nom {
+  text-transform: uppercase;
+}
+
+#prénom {
+  text-transform: capitalize;
+}
+
+h3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+#point {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 153px;
+  background-color: blue;
+}
+
+#f {
+  gap: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 8rem;
+}
